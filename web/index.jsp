@@ -8,12 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>hello world</title>
+    <title>首页</title>
   </head>
   <body>
-  hello java web
-  web开发
-  111
-  <a href="1.html">个人主页</a>
+ <h2>首页</h2>
+ <h2>欢迎您： <%=request.getAttribute("username")%></h2>
+  <a href="person.jsp">个人主页</a>
   </body>
 </html>
